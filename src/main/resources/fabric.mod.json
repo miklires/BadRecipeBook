@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "bad_recipe_book",
+  "version": "${version}",
+  "name": "Bad Recipe Book",
+  "description": "Automatically unlocks every available recipe in singleplayer and LAN worlds.",
+  "authors": ["miklires"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.miklires.badrecipebook.client.BadRecipeBookClient"]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
