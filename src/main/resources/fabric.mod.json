@@ -5,6 +5,11 @@
   "name": "Bad Recipe Book",
   "description": "Automatically unlocks every available recipe in singleplayer and LAN worlds.",
   "authors": ["miklires"],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/bad-recipe-book",
+    "sources": "https://github.com/miklires/BadRecipeBook",
+    "issues": "https://github.com/miklires/BadRecipeBook/issues"
+  },
   "license": "MIT",
   "environment": "client",
   "entrypoints": {
